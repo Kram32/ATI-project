@@ -1,0 +1,166 @@
+body {
+    font-family: "Montserrat";
+}
+
+.form-group label {
+    font-size: 15px;
+}
+
+/*----- HELPERS -----*/
+
+.flex-grow-1 {
+    flex: 1;
+}
+
+.justify-content-space-between {
+    justify-content: space-between;
+}
+
+.justify-content-space-evenly {
+    justify-content: space-evenly;
+}
+
+.line-divider {
+    border-top: 2px solid #00A04F;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.line-height-23 {
+    line-height: 23px;
+}
+
+.max-width-350 {
+    width: 350px;
+}
+
+.max-width-950 {
+    width: 950px;
+}
+
+.no-wrap {
+    white-space: nowrap;
+}
+
+.padding-right-40 {
+    padding-right: 40px;
+}
+
+.padding-left-20 {
+    padding-left: 20px;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.text-md {
+    font-weight: 600;
+}
+
+.text-size-15 {
+    font-size: 15px !important;
+}
+
+.text-size-20 {
+    font-size: 20px;
+}
+/*----- END OF HELPERS -----*/
+
+
+/*-----REGISTRATION-----*/
+
+/*Data Privacy Terms Modal*/
+.modal-dialog{
+overflow-y: initial !important
+}
+.modal-body{
+    max-height: calc(100vh - 200px);
+    overflow-y: auto;
+}
+/*-----END OF REGISTRATION-----*/
+
+
+/*-----DASHBOARD-----*/
+
+.datepicker.datepicker-dropdown.dropdown-menu.datepicker-orient-left.datepicker-orient-top {
+    z-index: 99 !important;
+}
+
+/*User DP*/
+#user_picture {
+    width: 120px;
+    height: 120px;
+    background: #00A04F;
+    border-radius: 200px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.edit-info{
+    margin-top: 25px;
+}
+
+#user_picture img {
+    width: 100%;
+    border-radius: 200px;
+}
+
+/*Side Navigation*/
+.card.card-custom > .card-body.card-side-nav {
+    padding: 0px;
+}
+
+.side-nav ul {
+    padding: 0px;
+    margin-bottom: 0px;
+}
+.side-nav ul li {
+    list-style: none;
+    padding: 15px 0px;
+    padding-left: 16px;
+    border: 2px solid #00A04F;
+    border-bottom: none;
+    
+}
+.side-nav ul li a{
+    color: black;    
+}
+.side-nav ul li:last-child{
+    border-bottom: 2px solid #00A04F;
+    border-radius: 0px 0px 5px 5px;
+}
+.side-nav ul li:first-child{
+    border-radius: 5px 5px 0 0;
+}
+.side-nav ul li i{
+    padding-right: 16px;
+}
+
+/*Dashboard*/
+.dashboard-personal .text-line {
+    border:none;
+    border-bottom:2px solid #00A04F;
+    border-radius: 0px;
+    background-color: transparent;
+     
+}
+
+.dashboard_btn {
+    border-radius: 50px;
+}
+
+.header-tabs .nav-item .nav-link:focus, .header-tabs .nav-item .nav-link:hover {
+background-color: #EAEAEF;
+opacity: 1;
+color: #181C32;
+}
+
+
+/*-----END OF DASHBOARD-----*/
+
+/*----MOBILE VIEW----*/
+
+
+/*----END OF MOBILE VIEW----*/
